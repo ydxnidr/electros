@@ -2,7 +2,7 @@
         <div class="flex flex-col items-center justify-center">
             <span class="text-3xl font-semibold text-gray-800">Register a New Account</span>
         </div>
-        <form action="<?php echo site_url('AuthController/create'); ?>" method="post" class="space-y-5">
+        <form action="<?php echo site_url('AuthController/create'); ?>" method="post" class="space-y-4">
             <div class="">
                 <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Full Name" autocomplete="off" class="rounded-xl w-full px-4 py-2 bg-gray-50 border-transparent focus:outline-none">
             </div>
