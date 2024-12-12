@@ -1,0 +1,19 @@
+{
+  "name": "electros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
+    "minify": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.30.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
