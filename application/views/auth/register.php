@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/style.css">
-</head>
-<body class="bg-gray-200 flex flex-wrap items-center justify-center h-screen">
     <div class="bg-white rounded-2xl shadow w-[350px] p-9 space-y-8">
         <div class="flex flex-col items-center justify-center">
             <span class="text-3xl font-semibold text-gray-800">Register a New Account</span>
@@ -32,6 +23,3 @@
             <a href="<?php echo site_url('login'); ?>" class="text-sm font-semibold text-gray-800 hover:underline">Already have an account? Login</a>
         </div>
     </div>
-    <script src=""></script>
-</body>
-</html>
