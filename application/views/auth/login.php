@@ -8,8 +8,8 @@
     		</div>
     		<div class="flex flex-col space-y-4">
     			<input type="password" name="password" id="password" placeholder="Password" autocomplete="off" class="rounded-xl w-full px-4 py-2 bg-gray-50 border-transparent focus:outline-none">
-    			<span class="flex justify-end border">
-    				<a href="" class="text-xs text-end font-semibold text-gray-700 hover:underline">Forgot the password?</a>
+    			<span class="flex flex-wrap items-center justify-end">
+    				<a href="" class="text-[12px] text-end font-semibold text-gray-700 hover:underline">Forgot the password?</a>
     			</span>
     		</div>
     		<div class="flex">
