@@ -6,7 +6,6 @@ class User_model extends CI_Model {
         $tahunStr = substr($tahun, -2);
         $bulanStr = str_pad($bulan, 2, '0', STR_PAD_LEFT);
         $nomorUrutStr = str_pad($nomor_urut, 2, '0', STR_PAD_LEFT);
-        
         return $roleIdStr . $tahunStr . $bulanStr . $nomorUrutStr;
     }
 

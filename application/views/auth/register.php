@@ -20,6 +20,6 @@
             </div>
         </form>
         <div class="flex flex-col items-center justify-center">
-            <a href="<?php echo site_url('login'); ?>" class="text-sm font-semibold text-gray-800 hover:underline">Already have an account? Login</a>
+            <a href="<?= base_url('auth/login'); ?>" class="text-sm font-semibold text-gray-800 hover:underline">Already have an account? Login</a>
         </div>
     </div>

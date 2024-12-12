@@ -8,6 +8,13 @@ class Auth extends CI_Controller {
         parent::__construct();
     }
 
+	public function login()
+	{
+		$this->load->view('auth/layout/header');
+		$this->load->view('auth/login');
+		$this->load->view('auth/layout/footer');
+	}
+
     public function register() {
         $this->load->view('auth/layout/header');
         $this->load->view('auth/register');
